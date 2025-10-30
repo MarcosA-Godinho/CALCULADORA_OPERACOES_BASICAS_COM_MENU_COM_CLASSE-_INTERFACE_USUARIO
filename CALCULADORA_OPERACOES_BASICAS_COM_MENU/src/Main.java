@@ -2,7 +2,7 @@
 public class Main {
     public static void main(String[] args) {
 
-        // 1. Instancia os objetos que vamos usar
+        // 1. Instancia os objetos (CLASSES CRIADAS)
         InterfaceUsuario ui = new InterfaceUsuario();
         Calculadora calculadora = new Calculadora();
 
@@ -10,7 +10,7 @@ public class Main {
         double numeroB;
         double resultado;
 
-        // 2. Constantes das opções (como você já tinha)
+        // 2. Constantes das opções
         final int ADICAO = 1;
         final int SUBTRACAO = 2;
         final int MULTIPLICACAO = 3;
